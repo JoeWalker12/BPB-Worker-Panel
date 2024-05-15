@@ -47,7 +47,7 @@ export default {
 
                 switch (url.pathname) {
 
-                    case '/instead_of_cf':
+                    case '/cf':
                         return new Response(JSON.stringify(request.cf, null, 4), {
                             status: 200,
                             headers: {
